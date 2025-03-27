@@ -56,6 +56,30 @@ Sistema de gerenciamento de tarefas com priorização automática usando Spring 
 Acesse a documentação interativa em:
   ```bash
   http://localhost:8080/swagger-ui.html
+```
 
-sds
+## 🎯 Exemplo de JSON
+  ```bash
+  {
+  "titulo": "Reunião Sprint Planning",
+  "descricao": "Preparar materiais para reunião",
+  "prazo": "15/11/2023 09:00",
+  "concluida": false,
+  "categoria": "TRABALHO"
+  }
+```
+## 🤝 Contribuição
+Faça um fork do projeto
 
+1. Crie uma branch (git checkout -b feature/nova-funcionalidade)
+2. Commit suas mudanças (git commit -m 'Adiciona nova funcionalidade')
+3. Push para a branch (git push origin feature/nova-funcionalidade)
+4. Abra um Pull Request
+
+
+### Destaques incluídos:
+1. **Sistema de priorização** explicado visualmente
+2. **Configuração do H2** para desenvolvimento rápido
+3. **Exemplos práticos** de JSON e prioridades
+4. **Link para Swagger** (doc interativa)
+5. **Guia de contribuição** padronizado
